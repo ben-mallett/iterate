@@ -37,7 +37,6 @@ class TestVersion(unittest.TestCase):
         self.assertEqual('v0.0.0', str(v0))
 
     def test_FailOnPurpose(self):
-
         self.assertEqual(1, 0)
 
 if __name__ == '__main__':
