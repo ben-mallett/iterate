@@ -1,4 +1,4 @@
-name: Python application
+name: Test Run
 
 on: [push, pull_request, workflow_dispatch]
 
