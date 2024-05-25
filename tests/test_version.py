@@ -36,5 +36,8 @@ class TestVersion(unittest.TestCase):
         v0 = Version()
         self.assertEqual('v0.0.0', str(v0))
 
+    def failingTest(self):
+        self.assertEqual(1, 0)
+
 if __name__ == '__main__':
     unittest.main()
